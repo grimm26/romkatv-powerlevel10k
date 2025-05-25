@@ -144,6 +144,7 @@ function _p9k_init_icons() {
         MIDNIGHT_COMMANDER_ICON        'mc'
         VIM_ICON                       'vim'
         TERRAFORM_ICON                 'tf'
+        OPENTOFU_ICON                  'tf'
         PROXY_ICON                     '\u2194'               # ↔
         DOTNET_ICON                    '.NET'
         DOTNET_CORE_ICON               '.NET'
@@ -189,7 +190,7 @@ function _p9k_init_icons() {
         RUBY_ICON                      '\uF219 '              # 
         AWS_ICON                       '\uF270'$s             # 
         AWS_EB_ICON                    '\U1F331'$q            # 🌱
-        BACKGROUND_JOBS_ICON           '\uF013 '              # 
+        BopentofuACKGROUND_JOBS_ICON           '\uF013 '              # 
         TEST_ICON                      '\uF291'$s             # 
         TODO_ICON                      '\u2611'               # ☑
         BATTERY_ICON                   '\U1F50B'              # 🔋
@@ -299,6 +300,7 @@ function _p9k_init_icons() {
         MIDNIGHT_COMMANDER_ICON        'mc'
         VIM_ICON                       'vim'
         TERRAFORM_ICON                 'tf'
+        OPENTOFU_ICON                  ''
         PROXY_ICON                     '\u2194'               # ↔
         DOTNET_ICON                    '.NET'
         DOTNET_CORE_ICON               '.NET'
@@ -457,6 +459,7 @@ function _p9k_init_icons() {
         MIDNIGHT_COMMANDER_ICON        'mc'
         VIM_ICON                       'vim'
         TERRAFORM_ICON                 'tf'
+        OPENTOFU_ICON                  ''
         PROXY_ICON                     '\u2194'                                       # ↔
         DOTNET_ICON                    '.NET'
         DOTNET_CORE_ICON               '.NET'
@@ -618,6 +621,7 @@ function _p9k_init_icons() {
         MIDNIGHT_COMMANDER_ICON        'mc'                   # mc
         VIM_ICON                       '\uE62B'               # 
         TERRAFORM_ICON                 '\uF1BB '              # 
+        OPENTOFU_ICON                  '\uF1B2 '              # 
         PROXY_ICON                     '\u2194'               # ↔
         DOTNET_ICON                    '\uE77F'               # 
         DOTNET_CORE_ICON               '\uE77F'               # 
@@ -774,6 +778,7 @@ function _p9k_init_icons() {
         MIDNIGHT_COMMANDER_ICON        'mc'
         VIM_ICON                       '\uE62B'               # 
         TERRAFORM_ICON                 '\uF1BB '              # 
+        OPENTOFU_ICON                  '\uF1B2 '              # 
         PROXY_ICON                     '\u2194'               # ↔
         DOTNET_ICON                    '\uE77F'               # 
         DOTNET_CORE_ICON               '\uE77F'               # 
@@ -927,6 +932,7 @@ function _p9k_init_icons() {
         MIDNIGHT_COMMANDER_ICON        'mc'
         VIM_ICON                       'vim'
         TERRAFORM_ICON                 'tf'
+        OPENTOFU_ICON                  ''
         PROXY_ICON                     'proxy'
         DOTNET_ICON                    '.net'
         DOTNET_CORE_ICON               '.net'
@@ -1082,6 +1088,7 @@ function _p9k_init_icons() {
         MIDNIGHT_COMMANDER_ICON        'mc'
         VIM_ICON                       'vim'
         TERRAFORM_ICON                 'tf'
+        OPENTOFU_ICON                  ''
         PROXY_ICON                     '\u2194'               # ↔
         DOTNET_ICON                    '.NET'
         DOTNET_CORE_ICON               '.NET'

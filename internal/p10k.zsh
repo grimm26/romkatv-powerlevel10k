@@ -5086,6 +5086,23 @@ _p9k_prompt_terraform_version_init() {
   typeset -g "_p9k__segment_cond_${_p9k__prompt_side}[_p9k__segment_index]"='$commands[terraform]'
 }
 
+function prompt_opentofu_version() {
+  local v cfg opentofu=${commands[tofu]}
+  _p9k_upglob .opentofu-version -. || cfg=$_p9k__parent_dirs[$?]/.opentofu-version
+  if _p9k_cache_stat_get $0.$TOFUENV_TOFU_VERSION $opentofu $cfg; then
+    v=$_p9k__cache_val[1]
+  else
+    v=${${"$(tofu --version 2>/dev/null)"#OpenTofu v}%%$'\n'*} || v=
+    _p9k_cache_stat_set "$v"
+  fi
+  [[ -n $v ]] || return
+  _p9k_prompt_segment $0 $_p9k_color1 yellow OPENTOFU_ICON 0 '' ${v//\%/%%}
+}
+
+_p9k_prompt_opentofu_version_init() {
+  typeset -g "_p9k__segment_cond_${_p9k__prompt_side}[_p9k__segment_index]"='$commands[tofu]'
+}
+
 function prompt_proxy() {
   local -U p=(
     $all_proxy $http_proxy $https_proxy $ftp_proxy
